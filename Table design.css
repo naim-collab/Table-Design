@@ -1,0 +1,189 @@
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+
+.nav-bar {
+  height: 30px;
+  background-color: rgb(255, 185, 127);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.group-one {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.group-two {
+  display: flex;
+  gap: 2px;
+}
+
+.group-three {
+  display: flex;
+}
+
+.person-icon {
+  position: relative;
+  z-index: 1;
+}
+
+.dropdown-items {
+  position: absolute;
+
+  right: 0%;
+  background-color: rgb(158, 109, 45);
+  width: 150px;
+  border-radius: 5px;
+  display: none;
+}
+
+.person-icon:hover .dropdown-items {
+  display: block;
+}
+
+.dropdown-items-ul {
+  list-style-type: none;
+}
+
+.dropdown-items-li {
+  text-align: left;
+  padding: 3px;
+  font-size: 20px;
+}
+
+.dropdown-items-li a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  color: greenyellow;
+}
+.dropdown-items-li:hover {
+  background-color: aqua;
+}
+
+.group-two {
+  position: relative;
+  gap: 20px;
+}
+
+.mega-menu-container {
+  position: absolute;
+  background-color: antiquewhite;
+  padding: 10px;
+  display: none;
+  border-radius: 10px;
+  outline-color: red;
+  z-index: 1;
+}
+
+.real-menu:hover {
+  color: red;
+}
+
+.menu-one:hover .mega-menu-container {
+  display: flex;
+  right: 0;
+}
+
+.menu-two:hover .mega-menu-container {
+  display: block;
+  right: 0;
+}
+
+.menu-list-li {
+  text-align: left;
+  font-size: 15px;
+}
+
+.menu-list-ul {
+  list-style-type: none;
+}
+
+.menu-list-li:hover {
+  background-color: aqua;
+}
+
+.category {
+  margin-left: 10px;
+}
+.head-list {
+  list-style-type: none;
+}
+
+.head-list:hover {
+  color: brown;
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+
+/* table-continer start */
+.table-container {
+  margin: 2rem 4rem;
+}
+
+.table-container {
+  width: 500px;
+
+  translate: 10px;
+}
+/* table contaienr end */
+
+.table {
+  width: 100%;
+}
+
+.table,
+.table th,
+.table td {
+  border: 1px solid red;
+  border-collapse: collapse;
+}
+
+td {
+  color: black;
+}
+
+.t-d-1 {
+  color: blue;
+}
+
+.category {
+  margin: 1rem;
+}
+.head-list {
+  margin: 5px;
+}
+.table tr td {
+  padding: 15px;
+}
+
+.table tr:nth-child(even) {
+  background-color: #ddd;
+}
+.table tr:hover {
+  background-color: aquamarine;
+}
+
+.table thead tr:hover {
+  background-color: yellow;
+}
+.table-container {
+  margin-top: 50px;
+}
+caption {
+  margin-bottom: 20px;
+}
+.table thead tr:nth-child(2) {
+  background-color: transparent;
+}
+
+.table::selection {
+  background-color: brown;
+}
